@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+coverage/
+*.tsbuildinfo
+
+# Secrets: real env files stay local, the .env.example templates are committed
+.env
+.env.*
+!.env.example
+*.local
+
+# SQLite database created by the backend (backend/fraud-demo.sqlite) and its temp files
+*.sqlite
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Editors and OS files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.sw?
